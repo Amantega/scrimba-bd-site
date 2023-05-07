@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    font-family: "dancing-bold";
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: white;
+    font-size: 40px
+    
+}
+
+@font-face {
+    font-family: bd-font;
+    src: url("fonts/bd-letters.ttf");
+    font-weight: bold;
+    
+}
+
+@font-face {
+    font-family: dancing-bold;
+    src: url("fonts/DancingScript-Bold.ttf")
+}
+
+#st-heading {
+    font-family: bd-font;
+    text-shadow: 0px 0px 5px black;
+    text-decoration:;
+    text-underline-offset: 10px;
+    word-spacing: -10px;
+    text-indent: 30px;
+    
+}
+
+
+
+
+
+.text-font-is-regular {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px
+}
+    
+
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 5px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 800px;
+    height: 800px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+   max-width: 100%;
+   max-height: 100%
+    
+    }
+
+#gift-img-excited:hover {
+    background-image: url("gifs/alucard-approves.gif");
+}
+    
+    
+#gift-img-hot:hover {
+    background-image: url("gifs/room-on-fire.gif")
+}
+
+#gift-img-smart:hover {
+    background-image: url("gifs/smart.gif");
+    
+}
+
+#gift-img-badass:hover {
+    background-image: url("gifs/badass.gif");
+}
+
+#gift-img-celebration:hover {
+    background-image: url("gifs/champagne-pop.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 20px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
